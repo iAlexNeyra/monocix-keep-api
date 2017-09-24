@@ -1,0 +1,12 @@
+{
+  "name": "monocix-keep-api",
+  "version": "1.0.0",
+  "description": "API REST",
+  "main": "index.js",
+  "author": "Alex D.Neyra",
+  "license": "UNLICENCED",
+  "private": true,
+  "dependencies": {
+    "hapi": "^16.6.1"
+  }
+}
