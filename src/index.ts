@@ -1,6 +1,6 @@
-import * as Server from './config/web-config';
-import * as DataBase from './config/persistence';
-import { getServerConfig, getDataBaseConfig } from './config/settings';
+import * as Server from './config/WebConfig';
+import * as DataBase from './config/Persistence';
+import { getServerConfig, getDataBaseConfig } from './config/Settings';
 
 console.log(`Entorno corriento ${process.env.NODE_ENV}`);
 

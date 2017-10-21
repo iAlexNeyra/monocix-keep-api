@@ -11,6 +11,9 @@ const configs = new nconf.Provider({
 export interface IServerConfig {
   host: string
   port: number
+  jwtSecret: string
+  jwtExpiration: string
+  routePrefix: string
   plugins: string[]
 }
 

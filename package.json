@@ -7,22 +7,31 @@
   "license": "UNLICENCED",
   "private": true,
   "scripts": {
-    "start": "export NODE_ENV=development && ./node_modules/.bin/gulp start"
+    "start": "export NODE_ENV=development && ./node_modules/.bin/gulp start",
+    "docs": "./node_modules/.bin/gulp docs"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "boom": "^6.0.0",
     "hapi": "^16.6.1",
+    "hapi-auth-jwt2": "^7.3.0",
+    "jsdoc": "^3.5.5",
+    "jsonwebtoken": "^8.1.0",
     "mongodb": "^2.2.33",
     "nconf": "^0.8.5",
     "typeorm": "^0.1.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "@types/boom": "^4.3.7",
     "@types/hapi": "^16.1.10",
+    "@types/jsonwebtoken": "^7.2.3",
+    "@types/mongodb": "^2.2.14",
     "@types/nconf": "^0.0.34",
     "@types/node": "^8.0.34",
     "gulp": "^3.9.1",
     "gulp-cli": "^1.4.0",
+    "gulp-jsdoc3": "^1.0.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-typescript": "^3.2.2",
     "typescript": "^2.5.3"

@@ -7,7 +7,7 @@ export interface IPluginOptions{
 
 export interface IPlugin{
   register(server:Hapi.Server, options?:IPluginOptions): Promise<void>
-  info: IPluginInfo
+  info(): IPluginInfo
 }
 
 export interface IPluginInfo{

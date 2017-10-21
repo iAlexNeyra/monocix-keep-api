@@ -3,6 +3,8 @@
         "host": "localhost",
         "port": 3000,
         "jwtSecret": "341E3C1CEE9AF464C5A4B788ADA9C",
+        "jwtExpiration": "1h",
+        "routePrefix": "/api",
         "plugins": [
             "jwt-auth"
         ]
